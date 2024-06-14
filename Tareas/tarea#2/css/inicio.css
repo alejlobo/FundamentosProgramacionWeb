@@ -1,0 +1,52 @@
+
+
+#btn-inicio{
+    
+    border-radius: 24px;
+    text-decoration: underline; 
+    background-color: transparent;
+    color: #ffffff;
+    border-width: 0;
+    font-family: "century-gothic";
+	  letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.producto-container{
+    display: flex;
+    justify-content: space-between;
+}
+.producto-container img {
+    width: 370px; 
+    height: 300px;
+    margin: 5px;
+}
+
+
+
+
+#header {
+    padding: 10px 0; /* Añadir relleno para mejorar el aspecto */
+    position: relative; /* Cambiar a posición relativa */
+    z-index: 1000; /* Asegurar que esté encima de otros elementos */
+
+}
+
+
+#header .list-inline-item button {
+    background-color: transparent; 
+    border: none; 
+    text-decoration: none; 
+}
+
+
+/* Agregar subrayado*/
+#header .list-inline-item button:hover {
+    text-decoration: underline; 
+}
+
+/* Estilos para el contenido principal */
+#contenido {
+    margin-top: 80px; /* Agregar un margen superior para evitar superposiciones */
+}
+
